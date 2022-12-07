@@ -1,3 +1,5 @@
+package exercicios;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -24,7 +26,7 @@ public class EntradaDeDados1 {
 
         System.out.print("Digite um Caractere: ");
         z = sc.next().charAt(0);
-        
+
         System.out.println("Dados digitados: ");
         System.out.println(s);
         System.out.println(x);

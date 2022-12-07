@@ -1,3 +1,4 @@
+package exercicios;
 /*
  * Exercício de fixação
  */

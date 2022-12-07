@@ -1,3 +1,4 @@
+package exercicios;
 /*
  * Resumo da aula
 • System.out.print

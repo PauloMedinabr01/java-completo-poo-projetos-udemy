@@ -1,14 +1,33 @@
 # Java COMPLETO Programação Orientada a Objetos + Projetos - Udemy
 
+Repositório com os códigos e projetos Java do curso Java COMPLETO Programação Orientada a Objetos + Projetos - Udemy
 
-Repositório com todos os desafios de códigos e projetos Java do curso Java COMPLETO Programação Orientada a Objetos + Projetos - Udemy
+## 🛠 Os tópicos de programação incluem
 
-## 🛠 Linguagens utilizadas
+- Lógica de programação e algoritmos
+- Sintaxe da linguagem Java
+- Classes, atributos e métodos
+- Construtores, sobrecarga, encapsulamento
+- Estruturas de dados: arrays e coleções
+- Enumerações, composição
+- Herança, polimorfismo, interfaces
+- Tratamento de exceções
+- Generics
+- Programação funcional e expressões lambda, Stream API
+- Manipulação de arquivos
+
+## 🛠 Linguagens e frameworks utilizadas
 
 - Java
-- Spring Boot
+- JDBC para acesso a dados baseado em SQL
+- JavaFX para interface gráfica
+- Spring Boot - principal framework Java para desenvolvimento comercial em Java
+- JPA / Hibernate para acesso a dados com mapeamento objeto-relacional (ORM)
+- Maven para gerenciamento de dependências de projeto
+- Spring Data JPA - framework para acesso a dados ORM
+- Spring Data MongoDB - framework para acesso a dados NoSQL ao banco MongoDB
 
-## 🛠 Ferramentas utilizadas
+## 🛠 IDES utilizadas
 
 - VScode
 - Eclipse
@@ -21,7 +40,7 @@ Repositório com todos os desafios de códigos e projetos Java do curso Java COM
 ## Autor
 
 <a href="https://www.linkedin.com/in/paulomedinabr01/">
- <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/D4D35AQHavYI-uuUqnA/profile-framedphoto-shrink_400_400/0/1669811515078?e=1671019200&v=beta&t=wGCWJwQYuMsMyNflgzxk0uOUWy6TB6lnSpiemtviaSA" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/D4D35AQHavYI-uuUqnA/profile-framedphoto-shrink_400_400/0/1669811515078?e=1671040800&v=beta&t=meN8QHG2iThpilKynZuvcOnM8t3l6mLoidAx8A8fD40" width="100px;" alt=""/>
  <br />
  <sub><b>Paulo Medina</b></sub></a> <a href="https://www.linkedin.com/in/paulomedinabr01/" title="LinkedIn"></a>
 
