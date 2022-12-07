@@ -21,7 +21,7 @@ Repositório com todos os desafios de códigos e projetos Java do curso Java COM
 ## Autor
 
 <a href="https://www.linkedin.com/in/paulomedinabr01/">
- <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/D4D35AQHQwhrY8rKSvA/profile-framedphoto-shrink_400_400/0/1668272961559?e=1669233600&v=beta&t=1s95mVzsRr5FprBYqdrmmgjg3cuZ5kYCOyBd5uZKj1c" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/D4D35AQHavYI-uuUqnA/profile-framedphoto-shrink_400_400/0/1669811515078?e=1671019200&v=beta&t=wGCWJwQYuMsMyNflgzxk0uOUWy6TB6lnSpiemtviaSA" width="100px;" alt=""/>
  <br />
  <sub><b>Paulo Medina</b></sub></a> <a href="https://www.linkedin.com/in/paulomedinabr01/" title="LinkedIn"></a>
 
