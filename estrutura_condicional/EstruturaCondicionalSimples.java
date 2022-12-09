@@ -2,6 +2,18 @@ package estrutura_condicional;
 
 import java.util.Scanner;
 
+/* Estrutura condicional:
+*É uma estrutura de controle que permite definir que um certo bloco de comandos somente 
+* será executado dependendo de uma condição
+
+                                   ********
+                                  *CONDIÇÃO*
+                                  ***********
+                                 *           *
+                                *             *
+                      VERDADEIRO               FALSO
+*/
+
 public class EstruturaCondicionalSimples {
     public static void main(String[] args) {
 
