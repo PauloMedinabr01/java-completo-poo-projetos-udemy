@@ -23,11 +23,11 @@ public class For {
         int n = sc.nextInt(); // quantidade de vezes a repetir a leitura
 
         int soma = 0;
-        for (int i = 0; i < n; i++) { // i com valor inicial de 0, enquanto i for menor n (vezes a repetir) incrementa n
-                                      
+        for (int i = 0; i < n; i++) { // i com valor inicial de 0, enquanto i for menor n que (vezes a repetir) incrementa n
             System.out.println("Digite um número: ");
             int x = sc.nextInt(); // armazena os valores após a leitura
-            soma = soma + x; // soma os valores de x enquato o laço de repetição for executado
+            soma = soma + x; // soma os valores de x enquato o laço de repetição for executado                        
+            
 
         }
 
