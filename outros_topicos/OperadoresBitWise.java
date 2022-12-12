@@ -2,8 +2,6 @@ package outros_topicos;
 
 import java.util.Scanner;
 
-import javax.lang.model.util.ElementScanner14;
-
 public class OperadoresBitWise {
 
     /*
