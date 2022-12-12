@@ -6,7 +6,6 @@ package outros_topicos;
 • Recortar: substring(inicio), substring(inicio, fim)
 • Substituir: Replace(char, char), Replace(string, string)
 • Buscar: IndexOf, LastIndexOf
-• str.Split(" ")
 */
 
 public class FuncoesString {
