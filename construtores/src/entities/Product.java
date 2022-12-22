@@ -3,18 +3,24 @@ package entities;
 public class Product {
     public String name;
     public double price;
-    public int quantity;
+    public double quantity;
+
+    public Product(String name, double price, double quantity2) {
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity2;
+    }
 
     public double totalValueInStock() {
         return price * quantity;
     }
 
-    public void addProducts(int quantity) {
-        this.quantity += quantity;
+    public void addProducts(double quantity2) {
+        this.quantity += quantity2;
     }
 
-    public void removeProducts(int quantity) {
-        this.quantity -= quantity;
+    public void removeProducts(double quantity2) {
+        this.quantity -= quantity2;
     }
 
     public String toString() {
