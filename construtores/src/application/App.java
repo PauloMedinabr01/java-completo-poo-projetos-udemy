@@ -18,7 +18,7 @@ public class App {
         System.out.print("Quantity in stock: ");
         double quantity = sc.nextInt();
 
-        Product product = new Product(name, price, quantity);
+        Product product = new Product(name, price, 0);
 
         System.out.print("Enter the number of products to be added in stock: ");
         quantity = sc.nextInt();
