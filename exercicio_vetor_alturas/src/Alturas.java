@@ -1,3 +1,5 @@
+import java.util.Locale;
+import java.util.Scanner;
 
 /*
  * Fazer um programa para ler nome, idade e altura de N pessoas, conforme exemplo. Depois, 
@@ -5,10 +7,7 @@
  * menos de 16 anos, bem como os nomes dessas pessoas caso houver. 
  */
 
-import java.util.Locale;
-import java.util.Scanner;
-
-public class App {
+public class Alturas {
     public static void main(String[] args) throws Exception {
 
         Locale.setDefault(Locale.US);
