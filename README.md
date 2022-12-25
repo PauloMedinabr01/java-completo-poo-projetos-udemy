@@ -48,5 +48,3 @@ Feito por Paulo Medina 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Paulo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/paulomedinabr01/)](https://www.linkedin.com/in/paulomedinabr01/)
 [![Gmail Badge](https://img.shields.io/badge/-Paulo-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:paulomedinabr01@gmail.com)](mailto:paulomedinabr01@gmail.com)
-
-
