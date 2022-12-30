@@ -1,18 +1,50 @@
-## Getting Started
+# Java COMPLETO Programação Orientada a Objetos + Projetos - Udemy
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Repositório com todos os desafios de códigos e projetos Java do curso Java COMPLETO Programação Orientada a Objetos + Projetos - Udemy
 
-## Folder Structure
+## 🛠 Os tópicos de programação incluem
 
-The workspace contains two folders by default, where:
+- Lógica de programação e algoritmos
+- Sintaxe da linguagem Java
+- Classes, atributos e métodos
+- Construtores, sobrecarga, encapsulamento
+- Estruturas de dados: arrays e coleções
+- Enumerações, composição
+- Herança, polimorfismo, interfaces
+- Tratamento de exceções
+- Generics
+- Programação funcional e expressões lambda, Stream API
+- Manipulação de arquivos
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🛠 Linguagens e frameworks utilizadas
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java
+- JDBC para acesso a dados baseado em SQL
+- JavaFX para interface gráfica
+- Spring Boot - principal framework Java para desenvolvimento comercial em Java
+- JPA / Hibernate para acesso a dados com mapeamento objeto-relacional (ORM)
+- Maven para gerenciamento de dependências de projeto
+- Spring Data JPA - framework para acesso a dados ORM
+- Spring Data MongoDB - framework para acesso a dados NoSQL ao banco MongoDB
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🛠 IDES utilizadas
 
-## Dependency Management
+- VScode
+- Eclipse
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🛠 Ferramentas de versionamento de código
+
+- Git
+- Github
+
+## Autor
+
+<a href="https://www.linkedin.com/in/paulomedinabr01/">
+ <img style="border-radius: 50%;" src="https://media.licdn.com/dms/image/D4D03AQGVlu4ovqwPBA/profile-displayphoto-shrink_400_400/0/1671154705455?e=1677715200&v=beta&t=8CHR_Et66-opuP1eRLvBvEnhfgQhHIB_7XbF1hR8xKQ" width="100px;" alt=""/>
+ <br />
+ <sub><b>Paulo Medina</b></sub></a> <a href="https://www.linkedin.com/in/paulomedinabr01/" title="LinkedIn"></a>
+
+Feito por Paulo Medina 👋🏽 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Paulo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/paulomedinabr01/)](https://www.linkedin.com/in/paulomedinabr01/)
+[![Gmail Badge](https://img.shields.io/badge/-Paulo-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:paulomedinabr01@gmail.com)](mailto:paulomedinabr01@gmail.com)
