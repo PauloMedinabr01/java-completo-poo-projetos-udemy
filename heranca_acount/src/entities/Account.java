@@ -45,11 +45,11 @@ public class Account {
 
 	@Override
 	public String toString() {
-		return "Account [number ="
+		return "Account [number = "
 				+ number
-				+ ", holder ="
+				+ ", holder = "
 				+ holder
-				+ ", balance ="
+				+ ", balance = "
 				+ balance
 				+ "]";
 	}
