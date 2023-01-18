@@ -34,27 +34,34 @@ public class Reservation {
         return checkOut;
     }
 
-    public long duration() { // duração em dias da reserva
+    public long duration() {
         long diff = checkOut.getTime() - checkIn.getTime();
         return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
     }
 
-    public void updateDates(Date checkIn, Date checkOut) { // atualiza duração em dias da reserva
+    public String updateDates(Date checkIn, Date checkOut) {
+        Date now = new Date();
+        if (checkIn.before(now) || checkOut.before(now)) {
+            return "Reservation dates for update must be future dates";
+        }
+        if (!checkOut.after(checkIn)) {
+            return "Check-out date must be after check-in date";
+        }
         this.checkIn = checkIn;
         this.checkOut = checkOut;
+        return null;
     }
 
     @Override
     public String toString() {
-        return "Reservation: Room "
+        return "Room "
                 + roomNumber
-                + ", Check-in "
+                + ", check-in: "
                 + sdf.format(checkIn)
-                + ", Check-out "
+                + ", check-out: "
                 + sdf.format(checkOut)
                 + ", "
                 + duration()
-                + " nights.";
+                + " nights";
     }
-
 }
