@@ -3,6 +3,7 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 import entities.Account;
+import exceptions.BusinessException;
 
 public class Program {
     public static void main(String[] args) {
@@ -27,12 +28,13 @@ public class Program {
         System.out.print("Informe a quantia para saque: ");
         double amount = sc.nextDouble();
 
-        String error = acc.validateWithDraw(amount);
-        if (error != null) {
-            System.out.println(error);
-        } else {
+        try {
             acc.withdraw(amount);
             System.out.printf("Saldo atualizado: %.2f%n", acc.getBalance());
+        }
+
+        catch (BusinessException e) {
+            System.out.println(e.getMessage());
         }
 
         sc.close();
