@@ -27,10 +27,9 @@ public class Program {
         System.out.print("Informe a quantia para saque: ");
         double amount = sc.nextDouble();
 
-        if (amount > acc.getWithdrawlimit()) {
-            System.out.println("Erro de saque: A quantia excede o valor limite de saque. ");
-        } else if (amount > acc.getBalance()) {
-            System.out.println("Erro de saque: Saldo insuficiente. ");
+        String error = acc.validateWithDraw(amount);
+        if (error != null) {
+            System.out.println(error);
         } else {
             acc.withdraw(amount);
             System.out.printf("Saldo atualizado: %.2f%n", acc.getBalance());
