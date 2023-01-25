@@ -1,35 +1,37 @@
 package application;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.ArrayList;
-
 /*
- * FileWriter e BufferedWriter
- * Classes
-• FileWriter (stream de escrita de caracteres em de arquivos)
-• https://docs.oracle.com/javase/10/docs/api/java/io/FileWriter.html
-• Cria/recria o arquivo: new FileWriter(path)
-• Acrescenta ao arquivo existente: new FileWriter(path, true)
-• BufferedWriter (mais rápido)
-• https://docs.oracle.com/javase/10/docs/api/java/io/BufferedWriter.html
- */
+* Manipulando pastas com File
+*/
+import java.io.File;
+import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) throws Exception {
 
-        String[] lines = new String[] { "Bom dia! ", "Boa tarde ", "Boa noite!" };
+        Scanner sc = new Scanner(System.in);
 
-        String path = "C:\\Temp\\Texto.txt";
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(path, true))) {
-            for (String line : lines) {
-                bw.write(line);
-                bw.newLine();
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
+        System.out.println("Entre com o caminho da pasta: ");
+        String strPath = sc.nextLine();
+
+        File path = new File(strPath);
+
+        File[] folders = path.listFiles(File::isDirectory);
+        System.out.println("Folders: ");
+        for (File folder : folders) {
+            System.out.println(folder);
         }
+
+        File[] files = path.listFiles(File::isFile);
+        System.out.println("Files: ");
+        for (File file : files) {
+            System.out.println(file);
+        }
+
+        boolean succcess = new File(strPath + "\\subdir").mkdir();
+        System.out.println("Diretório criado com sucesso! " + succcess);
+
+        sc.close();
+
     }
 }
