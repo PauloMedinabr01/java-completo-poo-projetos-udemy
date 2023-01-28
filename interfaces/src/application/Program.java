@@ -4,7 +4,6 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
-
 import model.entities.CarRental;
 import model.entities.Vehicle;
 import model.services.BrazilTaxService;
