@@ -10,13 +10,15 @@ public class Contract {
     private LocalDate date;
     private Double totalValue;
 
-    private List<Installment> installments = new ArrayList<>();
+    private List<Installment> installments = new ArrayList<>(); // Contrato tem várias parcelas - associação com
+                                                                // Installment
 
     public Contract() {
 
     }
 
-    public Contract(Integer number, LocalDate date, Double totalValue) {
+    public Contract(Integer number, LocalDate date, Double totalValue) { // Contrato instanciado sem instalments -
+                                                                         // contrato ainda nao tem parcelas
         this.number = number;
         this.date = date;
         this.totalValue = totalValue;
